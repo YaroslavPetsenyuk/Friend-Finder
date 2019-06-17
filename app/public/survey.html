@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Friend Finder</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Survey Questions</h2>
+                <hr>
+                <h3><strong> About You </strong></h3>
+                <h4>Name (Required)</h4>
+                <input type="text" id="name" class="form-control" required="">
+                <h4>Photo (Required)</h4>
+                <input type="text" id="photo" class="form-control" required="">
+                <hr>
+
+                <h3><strong>Question 1</strong></h3>
+                <h4>You enjoy reading or learning something new everyday.</h4>
+                <select class="answer-select" id="q1">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 2</strong></h3>
+                <h4>You are a party animal. Going to sleep sober is not an option.</h4>
+                <h4></h4>
+                <select class="answer-select" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 3</strong></h3>
+                <h4>You could spend a whole day inside playing video games.</h4>
+                <select class="answer-select" id="q3">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 4</strong></h3>
+                <h4>You enjoy holding the door for a stranger.</h4>
+                <select class="answer-select" id="q4">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 5</strong></h3>
+                <h4>You believe every single person has that special someone somewhere out there.</h4>
+                <select class="answer-select" id="q5">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 6</strong></h3>
+                <h4>You can not function properly if there is no music playing.</h4>
+                <select class="answer-select" id="q6">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 7</strong></h3>
+                <h4>You would have the bitter truth rather than the sweet lie.</h4>
+                <select class="answer-select" id="q7">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 8</strong></h3>
+                <h4>Having comfort food such as Chinese Take out is a perfect way to end a stressful day.</h4>
+                <select class="answer-select" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 9</strong></h3>
+                <h4>You think differently. Very differently.</h4>
+                <select class="answer-select" id="q9">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <h3><strong>Question 10</strong></h3>
+                <h4>You liked the series finale of Game of Thrones.</h4>
+                <select class="answer-select" id="q10">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+
+                <hr>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">Submit</button>
+            </div>
+        </div>
+
+        <br>
+
+        <footer class="footer">
+            <div class="container">
+                <p><a href="/api/friends">API Friends List</a> | <a
+                        href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
